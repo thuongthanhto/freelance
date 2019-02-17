@@ -1,10 +1,10 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Section = styled.div`
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 `;
 
 export const GoodCart = styled.div`

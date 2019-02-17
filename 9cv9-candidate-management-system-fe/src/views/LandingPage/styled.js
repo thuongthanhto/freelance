@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import imageRegister from './assets/pexels-photo.png';
-import imageLogin from './assets/man-sunglasses-art-graffiti.png';
-import imageForgot from './assets/art-drawing-eye-948620.png';
-import { LinkedIn } from 'react-linkedin-login-oauth2';
-import { FaFacebookF } from 'react-icons/fa';
+import { FaFacebookF } from "react-icons/fa";
+import { LinkedIn } from "react-linkedin-login-oauth2";
+import imageForgot from "./assets/art-drawing-eye-948620.png";
+import imageLogin from "./assets/man-sunglasses-art-graffiti.png";
+import imageRegister from "./assets/pexels-photo.png";
+import styled from "styled-components";
 
 export const Container = styled.div`
   position: fixed;
@@ -88,7 +88,7 @@ export const ContainerFindingIt = styled.div`
 `;
 
 export const ContainerFindOut = styled.div`
-  margin: 35px 0;
+  margin: 30px 0;
 `;
 
 export const ContainerClientSay = styled.div`
@@ -119,13 +119,15 @@ export const SubDescription = styled.div`
 `;
 
 export const ContainerCandidate = styled.div`
-  margin: 100px 0;
+  margin: 50px 0;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 `;
 
 export const CardCandidateSection = styled.div`
   display: flex;
+  margin-bottom: 20px;
 `;
 
 export const CandidateImage = styled.div``;
@@ -154,13 +156,14 @@ export const CandidateDescription = styled.div`
   width: 360px;
   text-align: left;
   height: 221px;
+  overflow: auto;
 `;
 
 export const ProcessSection = styled.div`
   display: flex;
   justify-content: space-around;
-  margin-top: 150px;
-  margin-bottom: 400px;
+  margin-top: 50px;
+  margin-bottom: 110px;
 `;
 
 export const ProcessCart = styled.div`
@@ -369,7 +372,7 @@ export const TextEmail = styled.div`
 `;
 
 export const ThanksForSection = styled.div`
-  font-family: 'AvenirNext-Regular', Helvetica, Arial, serif;
+  font-family: "AvenirNext-Regular", Helvetica, Arial, serif;
   font-size: 20px;
   color: rgba(145, 150, 152, 1);
   text-align: center;
